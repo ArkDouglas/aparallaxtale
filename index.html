@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Parallax Tale</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .section {
+            position: relative;
+            height: 100vh;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .section-content {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 80%;
+        }
+
+        .title {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .subtitle {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+
+        /* Define background images for each section */
+        #title-section {
+            background-image: url('images/title-background.jpg');
+        }
+
+        #section1 {
+            background-image: url('images/scene-1.png');
+        }
+
+        #section2 {
+            background-image: url('images/scene-2.png');
+        }
+
+        #section3 {
+            background-image: url('images/scene-3.png');
+        }
+
+        #section4 {
+            background-image: url('images/scene-4.png');
+        }
+
+        #section5 {
+            background-image: url('images/scene-5.png');
+        }
+
+        #section6 {
+            background-image: url('images/scene-6.png');
+        }
+
+        #section7 {
+            background-image: url('images/scene-7.png');
+        }
+
+        #section8 {
+            background-image: url('images/scene-8.png');
+        }
+
+        #section9 {
+            background-image: url('images/scene-9.png');
+        }
+
+        #section10 {
+            background-image: url('images/scene-10.png');
+        }
+
+        #section11 {
+            background-image: url('images/scene-11.png');
+        }
+
+        #section12 {
+            background-image: url('images/scene-12.png');
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Title Section -->
+    <section class="section" id="title-section">
+        <div class="section-content">
+            <h1 class="title">A Parallax Tale</h1>
+            <p class="subtitle">Something below</p>
+        </div>
+    </section>
+
+    <!-- Scene 1: Wake-up (in bed) -->
+    <section class="section" id="section1">
+        <div class="section-content">
+            <h2>Scene 1: Wake-up</h2>
+            <p>The protagonist wakes up in bed, eyes opening slowly as morning light filters through the window.</p>
+        </div>
+    </section>
+
+    <!-- Scene 2: Leaving the house -->
+    <section class="section" id="section2">
+        <div class="section-content">
+            <h2>Scene 2: Leaving the House</h2>
+            <p>He opens the door and steps outside into a world of green fields, leaving the house behind.</p>
+        </div>
+    </section>
+
+    <!-- Scene 3: Walking towards the cliff -->
+    <section class="section" id="section3">
+        <div class="section-content">
+            <h2>Scene 3: Walking towards the Cliff</h2>
+            <p>The journey begins as he walks towards the distant cliff, the village visible below.</p>
+        </div>
+    </section>
+
+    <!-- Scene 4: Looking over the cliff -->
+    <section class="section" id="section4">
+        <div class="section-content">
+            <h2>Scene 4: Looking over the Cliff</h2>
+            <p>At the cliff's edge, he gazes down at the sprawling village nestled below the mist.</p>
+        </div>
+    </section>
+
+    <!-- Scene 5: Starting the descent -->
+    <section class="section" id="section5">
+        <div class="section-content">
+            <h2>Scene 5: Starting the Descent</h2>
+            <p>He begins to climb down the rocky walls, the path becoming more challenging as he progresses.</p>
+        </div>
+    </section>
+
+    <!-- Scene 6: Meeting the Goose -->
+    <section class="section" id="section6">
+        <div class="section-content">
+            <h2>Scene 6: Meeting the Goose</h2>
+            <p>A friendly goose appears, offering guidance and marking a safe path ahead.</p>
+        </div>
+    </section>
+
+    <!-- Scene 7: Encountering the “Monster” -->
+    <section class="section" id="section7">
+        <div class="section-content">
+            <h2>Scene 7: Encountering the “Monster”</h2>
+            <p>A large, furry monster emerges, initially intimidating but proves to be a helpful ally.</p>
+        </div>
+    </section>
+
+    <!-- Scene 8: The Snake Encounter -->
+    <section class="section" id="section8">
+        <div class="section-content">
+            <h2>Scene 8: The Snake Encounter</h2>
+            <p>A wise snake crosses his path, offering advice and revealing a hidden, safer route.</p>
+        </div>
+    </section>
+
+    <!-- Scene 9: Trapped at the Bottom -->
+    <section class="section" id="section9">
+        <div class="section-content">
+            <h2>Scene 9: Trapped at the Bottom</h2>
+            <p>Upon reaching the bottom, a sudden rockfall traps him, leaving him stranded.</p>
+        </div>
+    </section>
+
+    <!-- Scene 10: Friends Come to the Rescue -->
+    <section class="section" id="section10">
+        <div class="section-content">
+            <h2>Scene 10: Friends Come to the Rescue</h2>
+            <p>The goose, monster, and snake unite to help him escape the precarious situation.</p>
+        </div>
+    </section>
+
+    <!-- Scene 11: The Ascent -->
+    <section class="section" id="section11">
+        <div class="section-content">
+            <h2>Scene 11: The Ascent</h2>
+            <p>Together, they climb back up the cliff, overcoming obstacles with teamwork and determination.</p>
+        </div>
+    </section>
+
+    <!-- Scene 12: Back at the Top, Reflecting -->
+    <section class="section" id="section12">
+        <div class="section-content">
+            <h2>Scene 12: Back at the Top, Reflecting</h2>
+            <p>At the summit, they reflect on their journey, gazing out over the peaceful village as the sun sets.</p>
+        </div>
+    </section>
+
+</body>
+</html>
